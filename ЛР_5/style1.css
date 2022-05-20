@@ -1,0 +1,180 @@
+.Rectangle1 {
+
+
+position: absolute;
+width: 1222px;
+height: 316px;
+
+background: linear-gradient(180deg, #FF0000 26.04%, #001AFF 100%);
+     }
+
+     .Rectangle2 {
+
+
+position: absolute;
+width: 1222px;
+height: 316px;
+margin-left: 0px;
+margin-top: 316px;
+line-height: 200px;
+background: linear-gradient(93.83deg, #DBFF00 4.94%, #24FF00 100%);
+     }
+
+    
+
+     .image1 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+
+background: url(image.png);
+     }
+
+     .image3 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+
+background: url(image.png);
+     }
+
+     .image2 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: 190px;
+margin-top: 0px;
+line-height: 200px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+     }
+
+     .image4 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: 300px;
+margin-top: 70px;
+line-height: 200px;
+
+background: url(image.png);
+transform: matrix(0.01, -1, -1, -0.01, 0, 0);
+     }
+
+
+
+.Rectangle5 {
+
+
+position: absolute;
+width: 1222px;
+height: 316px;
+margin-left: 0px;
+margin-top: 632px;
+line-height: 200px;
+background: radial-gradient(213.68% 100% at 52.54% 100%, #EB00FF 4.94%, #CCFF00 36.98%, #75FF00 57.81%, #379E05 75.52%, #FFA928 100%);
+}
+
+.image5 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+
+background: url(image.png);
+}
+
+.image6 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: 254px;
+margin-top: 0px;
+line-height: 200px;
+background: url(image1.png);
+
+}
+
+
+
+.Rectangle7 {
+
+
+position: absolute;
+width: 1222px;
+height: 316px;
+margin-left: 0px;
+margin-top: 948px;
+line-height: 0px;
+
+background: radial-gradient(68.82% 123.3% at 70.25% 58.7%, #FF0000 0%, #DBFF00 100%);
+}
+
+.image7 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+
+background: url(image.png);
+}
+.image8 {
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: 500px;
+margin-top: 0px;
+line-height: 200px;
+background: url(image.png);
+}
+
+
+
+.Rectangle9 {
+
+
+position: absolute;
+width: 1222px;
+height: 316px;
+margin-left: 0px;
+margin-top: 1254px;
+line-height: 200px;
+background: radial-gradient(98.39% 46.04% at 4.17% 3.96%, #3ADE00 4.94%, #4628FF 100%);
+}
+
+.image9 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+
+background: url(image.png);
+}
+
+.image10 {
+
+
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: 190px;
+margin-top: 0px;
+line-height: 200px;
+
+background: url(image.png);
+transform: rotate(-20deg);
+}

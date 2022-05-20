@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    
+    <title>Personal vCard Template</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+   
+    
+</head>
+    <body>
+       <div class="form-wrap">
+
+    <h1>Анкета</h1>
+  </div>
+  <form method="post" action="form.php">
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+
+    <div>
+      <label for="name">Пароль</label>
+      <input type="password" name="name1" required>
+    </div>
+
+<label for="name">Дата рождения: 16 января 1996</label>
+
+    <div class="radio">
+      <span>Пол</span>
+<br>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male 7"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female 6"></div>
+      </label>
+
+  <span>Желаю регулярно получать спам на свой почтовый ящик?</span>
+<br>
+      <label>
+        <input type="radio" name="sex" value="мужской">да
+        <div class="radio-control male 1 "></div>
+      </label>
+
+      <label>
+        <input type="radio" name="sex" value="женский">нет
+        <div class="radio-control female 2"></div>
+      </label>
+
+  <span>  Сколько писем в день Вы обычно получаете?</span>
+<br>
+      <label>
+        <input type="radio" name="sex" value="мужской">одно-два
+        <div class="radio-control male 3"></div>
+      </label>
+
+      <label>
+        <input type="radio" name="sex" value="женский">до 10
+        <div class="radio-control female 4"></div>
+      </label>
+
+ <label>
+        <input type="radio" name="sex" value="женский">очень много
+        <div class="radio-control female 5"></div>
+      </label>
+
+
+    </div>
+
+    <div>
+      <label for="country">Укажите, каким компьютерным направлением Вы увлечены?	</label>
+      <select name="country">
+        <option>Выберите </option>
+        <option value="а">Компьютерная графика (дизайн)</option> 
+        <option value="аа">Проектирование</option> 
+        <option value="ааа">Программирование</option> 
+		<option value="ааааа">Набор текста</option> 
+        <option value="ааааааа">Игры</option> 
+		<option value="аааааааа">Общение в сети</option> 
+      </select> 
+
+
+      <div class="select-arrow"></div> 
+    </div> 
+	<span>Ваши пожелания к работе почтовой системы</span>
+	<textarea rows="1" cols="45" name="text"></textarea>
+	<br>
+		<input type = "file" name="f" multiple accept="image/*,image/jpg">
+	<br>
+    <button type="submit">Отправить</button> 
+    <button type="reset">Очистить</button> 
+	</form> 
+	</div>
+    </body>
+	</html>
