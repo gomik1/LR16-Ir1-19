@@ -55,9 +55,18 @@ footer {
 }
 a{
     text-decoration: none;
+    display : flex ;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.btn:hover
+{
+    background: rgba(0,0,0,0,);
+    color: #a1a1a1;
+    box-shadow: inset 0 0 0 0  #731e1e;
+    transition-duration : 1s ;
+}
 img{
     height: 300px;
 }
@@ -74,9 +83,7 @@ img{
     width: 40%;
   
   }
-  .third:hover {
-    box-shadow: 0 0 10px 0 #c8a2c8 inset, 0 0 10px 4px #c8a2c8;
-  }
+  
 
   .btn:hover, .btn:focus {
     color: #fff;
